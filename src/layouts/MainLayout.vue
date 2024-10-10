@@ -11,7 +11,7 @@
           dense
           to="/camera"
         />
-        <q-separator vertical spaced />
+        <q-separator vertical spaced class="large-screen-only" />
         <q-toolbar-title class="grand-hotel-regular text-bold">
           Quasagram</q-toolbar-title
         >
@@ -36,7 +36,7 @@
         <q-route-tab to="/camera" icon="eva-camera-outline" />
       </q-tabs>
     </q-footer>
-    <q-page-container>
+    <q-page-container class="bg-grey-1">
       <router-view />
     </q-page-container>
   </q-layout>
